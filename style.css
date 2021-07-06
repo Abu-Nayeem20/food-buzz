@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Otomanopee One', sans-serif;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.fbuz-header{
+    background-color: black;
+    padding: 40px 0;
+}
+.fbuz-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.fbuz-flex-content{
+    display: flex;
+}
+.fbuz-logo{
+    width: 40%;
+}
+.fbuz-logo img{
+    width: 200px;
+}
+.fbuz-menu{
+    width: 60%;
+}
+.fbuz-menu ul{
+    display: flex;
+    float: right;
+}
+.fbuz-menu ul li{
+    list-style: none;
+}
+.fbuz-menu ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    color: orange;
+    font-size: 18px;
+}
+.fbuz-banner{
+    background-color: ivory;
+    height: 80vh;
+    padding: 70px 0 40px;
+}
+.fbuz-banner-left{
+    width: 45%;
+    margin-left: 5%;
+}
+.fbuz-banner-left h2{
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.603);
+    font-size: 50px;
+}
+.fbuz-banner-left h2 span{
+    color: #0998f8;
+}
+.fbuz-banner-left p{
+    color: #000;
+    font-size: 16px;
+    padding: 30px 0;
+    width: 50%;
+}
+.fbuz-banner-left a,
+.fbuz-about-right a{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right,#03A678 , #0998f8);
+    display: inline-block;
+    margin-top: 40px;
+    filter: drop-shadow(0 0 0.50rem #03A678);
+}
+.fbuz-banner-left a:hover,
+.fbuz-about-right a:hover{
+    background-image: linear-gradient(to left,#03A678 , #0998f8);
+}
+.fbuz-banner-right{
+    width: 40%;
+    margin-left: 6%;
+}
+.fbuz-about{
+    background-image: url(images/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0;
+    height: 70vh;
+    margin-bottom: 100px;
+}
+.fbuz-about-left{
+    width: 50%;
+}
+.fbuz-about-left img{
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+.fbuz-about-right{
+    width: 50%;
+    padding-top: 50px;;
+}
+.fbuz-about-right h2{
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.603);
+    font-size: 50px;
+    font-weight: 700;
+}
+.fbuz-about-right p{
+    font-size: 16px;
+    padding: 30px 0;
+    text-align: justify;
+    width: 60%;
+}
+.fbuz-about-right a{}
+
+
+
+
