@@ -188,3 +188,30 @@ img{
 }
 
 
+
+
+
+.fbuzz-footer{
+    background-color: #435460;
+    padding: 30px 0;
+}
+.fbuz-footer-left{
+    width: 50%;
+}
+.fbuz-footer-left h3{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    color: turquoise;
+}
+.fbuz-footer-left p{
+    font-size: 12px;
+    color: whitesmoke;
+}
+.fbuz-footer-right{
+    width: 50%;
+}
+.fbuz-footer-right a img{
+    width: 150px;
+    float: right;
+}
