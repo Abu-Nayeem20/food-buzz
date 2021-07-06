@@ -133,14 +133,16 @@ img{
     padding: 100px 0;
 }
 .fbuz-items-title,
-.fbuz-reviews-title{
+.fbuz-reviews-title,
+.fbuz-contact-title{
     text-align: center;
     width: 50%;
     margin: 0 auto;
     margin-bottom: 40px;
 }
 .fbuz-items-title h2,
-.fbuz-reviews-title h2{
+.fbuz-reviews-title h2,
+.fbuz-contact-title h2{
     text-transform: capitalize;
     font-size: 40px;
     font-weight: 600;
@@ -188,10 +190,8 @@ img{
     text-decoration: none;
 }
 .fbuz-reviews{
-    margin-bottom: 100px;
-    padding: 60px 0;
+    padding: 30px 0 80px;
 }
-.fbuz-reviews-title{}
 .fbuz-reviews-content{
     padding-top: 30px;
 }
@@ -228,22 +228,67 @@ img{
     letter-spacing: 2px;
     padding: 5px 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.fbuz-contact{
+    padding: 100px 0;
+    background-image: url(images/new-york.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fbuz-contact-content{
+    padding: 30px 0;
+}
+.fbuz-contact-field{
+    width: 48%;
+    margin-left: 4%;
+}
+.fbuz-contact-field:first-child{
+    margin-left: 0;
+}
+.fbuz-contact-field-name,
+.fbuz-contact-field-email{
+    width: 70%;
+    float: right;
+    margin-bottom: 20px;
+}
+.fbuz-contact-field-name label,
+.fbuz-contact-field-email label,
+.fbuz-contact-field-comment label{
+    color: seashell;
+    padding: 10px 0;
+    display: inline-block;
+}
+.fbuz-contact-field-name input,
+.fbuz-contact-field-email input,
+.fbuz-contact-field-comment textarea{
+    width: 100%;
+    padding: 15px 10px;
+    border: 2px solid seagreen;
+    background-color:transparent;
+    border-radius: 10px;
+    color: #fff;
+}
+.fbuz-contact-field-comment{
+    width: 70%;
+    float: left;
+}
+.fbuz-contact-submit{
+    width: 22%;
+    float: right;
+}
+.fbuz-contact-submit input{
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: seagreen;
+    background-color:transparent;
+    letter-spacing: 2px;
+    border: 2px solid seagreen;
+    border-radius: 10px;
+    float: left;
+    transition: .3s;
+}
 .fbuzz-footer{
     background-color: #435460;
     padding: 30px 0;
@@ -256,6 +301,9 @@ img{
     font-size: 18px;
     font-weight: 500;
     color: turquoise;
+}
+.fbuz-footer-left h3 span{
+    color: orangered;
 }
 .fbuz-footer-left p{
     font-size: 12px;
