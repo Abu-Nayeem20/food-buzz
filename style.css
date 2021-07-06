@@ -13,7 +13,7 @@ img{
     height: auto;
 }
 .fbuz-header{
-    background-color: black;
+    background-color: #435460;
     padding: 40px 0;
 }
 .fbuz-container{
@@ -46,6 +46,10 @@ img{
     text-transform: uppercase;
     color: orange;
     font-size: 18px;
+    transition: .3s;
+}
+.fbuz-menu ul li a:hover{
+    color: tomato;
 }
 .fbuz-banner{
     background-color: ivory;
@@ -100,7 +104,6 @@ img{
     background-size: cover;
     padding: 60px 0;
     height: 70vh;
-    margin-bottom: 100px;
 }
 .fbuz-about-left{
     width: 50%;
@@ -117,7 +120,7 @@ img{
 .fbuz-about-right h2{
     text-transform: capitalize;
     color: rgba(0, 0, 0, 0.603);
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
 }
 .fbuz-about-right p{
@@ -126,8 +129,62 @@ img{
     text-align: justify;
     width: 60%;
 }
-.fbuz-about-right a{}
-
-
+.fbuz-items{
+    margin-bottom: 100px;
+    padding: 100px 0;
+}
+.fbuz-items-title{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.fbuz-items-title h2{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 600;
+    color: cadetblue;
+}
+.fbuz-items-title p{
+    font-size: 16px;
+    padding: 20px 0;
+}
+.fbuz-single-item{
+    width: 30%;
+    margin-left: 5%;
+    border: 10px solid white;
+    box-shadow: 0 0 15px #ddd;
+    border-radius: 15px;
+    padding: 10px;
+    overflow: hidden;
+}
+.fbuz-single-item:first-child{
+    margin-left: 0%;
+}
+.fbuz-single-item img{
+    border-radius: 20px;
+    transition: .5s;
+}
+.fbuz-single-item img:hover{
+    transform: scale(0.9);
+}
+.fbuz-single-item-text{
+    padding: 25px 0;
+}
+.fbuz-single-item-text h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+}
+.fbuz-single-item-text p{
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+.fbuz-single-item-text p a{
+    font-size: 12px;
+    color: tomato;
+    text-decoration: none;
+}
 
 
