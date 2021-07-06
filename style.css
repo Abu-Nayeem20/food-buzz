@@ -130,16 +130,17 @@ img{
     width: 60%;
 }
 .fbuz-items{
-    margin-bottom: 100px;
     padding: 100px 0;
 }
-.fbuz-items-title{
+.fbuz-items-title,
+.fbuz-reviews-title{
     text-align: center;
     width: 50%;
     margin: 0 auto;
     margin-bottom: 40px;
 }
-.fbuz-items-title h2{
+.fbuz-items-title h2,
+.fbuz-reviews-title h2{
     text-transform: capitalize;
     font-size: 40px;
     font-weight: 600;
@@ -186,6 +187,58 @@ img{
     color: tomato;
     text-decoration: none;
 }
+.fbuz-reviews{
+    margin-bottom: 100px;
+    padding: 60px 0;
+}
+.fbuz-reviews-title{}
+.fbuz-reviews-content{
+    padding-top: 30px;
+}
+.fbuz-single-review{
+    width: 48%;
+    margin-left: 4%;
+    border: 5px solid white;
+    box-shadow: 0 0 15px #ddd;
+    border-radius: 10px;
+    padding: 30px 20px;
+    text-align: center;
+}
+.fbuz-single-review:first-child{
+    margin-left: 0;
+}
+.fbuz-single-review img{
+    width: 100px;
+}
+.fbuz-single-review h3{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    color: turquoise;
+    padding: 5px 0 0;
+}
+.fbuz-single-review h6{
+    text-transform: capitalize;
+    font-size: 12px;
+    padding: 0 0 5px;
+}
+.fbuz-single-review p{
+    font-size: 14px;
+    color: teal;
+    letter-spacing: 2px;
+    padding: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
